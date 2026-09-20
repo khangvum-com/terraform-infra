@@ -1,9 +1,0 @@
----
-- name: Windows Hostname Update
-  ansible.windows.win_hostname:
-    name: "{{ computer_name }}"
-  register: hostname_update
-
-- name: Reboot to Apply Hostname Change
-  ansible.windows.win_reboot:
-  when: hostname_update.reboot_required
