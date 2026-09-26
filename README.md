@@ -2,6 +2,10 @@
 
 A **_declarative infrastructure provisioning_** solution powered by **_Terraform_**, containerized with **_Docker_**. This setup automates **_edge networking_**, **_DNS management_**, and **_Cloudflare Zero Trust Access_** by leveraging **_Infrastructure as Code_** (**_IaC_**) principles across cloud endpoints and local services.
 
+[![Terraform Pipeline](https://github.com/khangvum-com/terraform-infra/actions/workflows/terraform.yml/badge.svg)](https://github.com/khangvum-com/terraform-infra/actions/workflows/terraform.yml)
+[![Security Scan](https://github.com/khangvum-com/terraform-infra/actions/workflows/security.yml/badge.svg)](https://github.com/khangvum-com/terraform-infra/actions/workflows/security.yml)
+
+
 ## Features
 
 - **_Declarative infrastructure provisioning_** using **_Terraform_** for stateful Cloudflare resource management.
